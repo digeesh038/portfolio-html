@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body{
+    background-color:rgb(147, 192, 185);
+}
+.bg{
+    display: flex;
+    margin-left: 5rem;
+}
+.head{
+    display: flex;
+}
+.head2{
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 23rem;
+    height: 7.8125rem;
+    flex-shrink: 0;
+}
+.black{
+    color: #2B2B2B;
+    margin-top: 4rem;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.white{
+    color: white;
+    margin-top: 4rem;
+    
+    font-family: Poppins;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.total-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    width: 51rem;
+    background-color: rgb(241, 231, 231);
+    border-radius: 1.25rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    box-shadow: 1px 0px 45px 0px rgba(0, 0, 0, 0.10);
+    position:absolute;
+    left: 20%;
+    text-align: center;
+}
+.side1{
+    height: 70rem;
+    width:15rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    position: absolute;
+    left: 0px;
+    top: 1%;
+}
+.center-part{
+    margin-top: 0.5rem;
+    background-color: rgb(241, 231, 231);
+}
+.center-1{
+    height: 25rem;
+    width:35rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+}
+.top1{
+    margin-top: 2rem;
+    height: 35rem;
+    width:35rem;
+    background-color: rgb(241, 231, 231);
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+}
+.side2{
+    height: 70rem;
+    width:5rem;
+    margin-left: 1.5rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    position: absolute;
+    right: 0px;
+}
+.image1{
+    border-radius: 1.25rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profile{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    height: 2rem;
+}
+.abc{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0.1775rem;
+}
+.icons-1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: white;
+}
+.icons-1:hover{
+    cursor: pointer;
+}
+i{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius:0.25rem;
+    background-color: rgb(234, 225, 225);
+    font-size: 1.5rem;
+    padding: auto;
+    margin-left: 0.5rem;
+}
+.content{
+    margin-left: 1rem;
+    background-color: white;
+}
+.brown{
+    background-color: #FFB400;
+}
+.r1{
+    background-color: white;
+    margin-left: 10rem;
+}
+.r2{
+    background-color: white;
+}
+.r3{
+    background-color: white;
+    margin-left: 7.5rem;
+}
+.language{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+progress {
+    margin-top: 0rem;
+    margin-left: 1rem;
+    border: none;
+    width: 10rem;
+    height: 0.25rem;
+    background: crimson;
+    color: #FFB400;
+}
+progress::-webkit-progress-value {
+    background: #FFB400;
+}
+progress::-moz-progress-bar {
+    background: lightcolor;
+}
+.lang{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1rem;
+    height: 1rem;
+    margin-bottom: 0.1rem;
+}
+.b{
+    background-color: white;
+}
+ul{
+    background-color: white;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 0.90rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    height: 1rem;
+}
+li{
+    background-color: white;
+}
+.c{
+    background-color: white;
+    text-align: left;  
+    color: #2B2B2B;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: normal; 
+    margin-left: 1rem;
+    border-radius: 1.25rem;
+}
+.brown-text{
+    background-color: white;
+    color: #FFB400;;
+}
+.top-text{
+    background-color: white;
+    font-size: 1rem;
+    font-family: Poppins;
+    margin-left: 1rem;
+}
+.box-1{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box-1:hover{
+    cursor: pointer;
+    background-color: #FFB400;
+}
+.ic2{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    gap: 5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    background-color: white;
+}
+.center1{
+    background-color:rgb(241, 231, 231);
+    text-align: center;  
+    color: #2B2B2B;
+    color: #2B2B2B;
+    font-family: Poppins;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: normal; 
+    margin-left: 1rem;
+    border-radius: 1.25rem;
+}
+.grid{
+    margin-top: 2rem;
+    background-color: rgb(241, 231, 231);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.grid-item:hover{
+    cursor: pointer;
+    box-shadow:inset 3px 3px 3px 3px;
+}
+.grid-item{
+    text-align: center;
+    font-family: poppins;
+    align-items: center;
+    padding-top: 3rem;
+    background-color: white;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service{
+    background-color: rgb(241, 231, 231);
+    font-family: poppins;
+    text-align: center;
+    font-size: 0.75rem;
+}
